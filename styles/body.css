@@ -1,0 +1,59 @@
+.vedio-info{
+    width: 100%;
+}
+.thumbnail{
+    width: 100%;
+    margin-bottom: 12px;
+}
+.profile-pic{
+    width: 40px;
+    vertical-align: top;
+}
+.vedio-data{
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+}
+.vedio-title{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.pro-pic{
+    width: 100%;
+    border-radius: 20px;
+}
+.author,
+.vedio-stats
+{
+    font-size: 15px;
+    color: rgb(96,96,96);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+.vedio-about{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.thumbnail-box{
+    position: relative;
+}
+.vedio-time{
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    position: absolute;
+    background-color: black;
+    color: white;
+    right: 5px;
+    bottom: 22px;
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+}
